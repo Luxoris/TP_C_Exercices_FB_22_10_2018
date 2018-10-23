@@ -11,11 +11,9 @@ int main()
     printf("Quel est le nombre de depart ?\n");
     scanf("%i",&nNombre);
 
-    nIndex = nNombre;
-    do{
-        nIndex=nIndex+1;
+    for(nIndex=(nNombre+1);nIndex<=(nNombre+10);nIndex++){
         printf("%i ",nIndex);
-    }while(nIndex<(nNombre+10));
+    }
 
     return 0;
 }
